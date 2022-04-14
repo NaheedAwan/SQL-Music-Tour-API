@@ -19,6 +19,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('Stage_events');
+    await queryInterface.dropTable('stage_events');
   }
 }
